@@ -18,6 +18,7 @@ class Troco {
             int count = valor / valoresMoedas[i];
             valor %= valoresMoedas[i];
             papeisMoeda[i] = new PapelMoeda(valoresMoedas[i], count);
+   
         }
     }
 
