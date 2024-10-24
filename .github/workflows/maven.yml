@@ -31,6 +31,15 @@ jobs:
       run: |
         mvn package
         mvn test
+        
+    - name: Display Test Results
+      run: |
+        if [ -d "target/surefire-reports" ]; then
+          echo "Test Results:"
+          cat target/surefire-reports/*.txt
+        else
+          echo "No test reports found."
+        fi
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
