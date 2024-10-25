@@ -69,5 +69,12 @@
          int saldo = t.getSaldo();
          Assert.assertEquals(0, saldo);
      }
+
+   @Test
+      public void receberTroco() throws PapelMoedaInvalidaException
+      {
+          Assert.assertNotNull(new TicketMachine(1).getTroco());
+      }
+
  }
  
