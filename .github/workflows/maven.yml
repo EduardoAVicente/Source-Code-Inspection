@@ -31,7 +31,7 @@ jobs:
       run: mvn package
 
     - name: test maven project
-      run: mvn test
+      run: mvn clean install
         
     - name: Display Test Results
       run: |
