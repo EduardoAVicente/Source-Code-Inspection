@@ -1,0 +1,7 @@
+com\mycompany\ticketmaster\core\PapelMoeda.class
+com\mycompany\ticketmaster\exception\SaldoInsuficienteException.class
+com\mycompany\ticketmaster\core\Troco$TrocoIterator.class
+com\mycompany\ticketmaster\core\Troco.class
+com\mycompany\ticketmaster\exception\PapelMoedaInvalidaException.class
+com\mycompany\ticketmaster\core\TicketMachine.class
+com\mycompany\ticketmaster\TicketMaster.class
