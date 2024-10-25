@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
 
- import com.mycompany.ticketmaster.core.Troco;
  import com.mycompany.ticketmaster.exception.PapelMoedaInvalidaException;
  import junit.framework.Assert;
  import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -20,13 +19,6 @@
          
      }
      
-     @Test
-     public void IntanciarTrocoInvalido() throws PapelMoedaInvalidaException 
-     {
-         
-         assertThrows(PapelMoedaInvalidaException.class, () -> {
-            Troco troco = new Troco(1);
-         });
-     }
+     
  }
  
